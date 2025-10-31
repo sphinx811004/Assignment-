@@ -1,0 +1,17 @@
+ // The Employees table should contain the columns: EmployeeID (primary key), Name, DepartmentID, and
+Salary.
+The Departments table should contain DepartmentID (primary key) and DepartmentName.
+-------------------------------------------------------------------------------------------------------------------------------
+Q1: Create a stored procedure GetEmployeeDetails that takes an EmployeeID as an input parameter and
+returns the details of the employee (i.e., Name, DepartmentName, and Salary).
+Q2: Write a stored procedure IncreaseSalaries that takes a percentage increasePercent as an input
+parameter and increases the salary of all employees by that percentage.
+Q3: Write a stored procedure GetEmployeesByDepartment that takes a DepartmentName as an input
+parameter and returns a list of all employees in that department, including their EmployeeID, Name, and
+Salary.
+Q4: Create a trigger PreventNegativeSalary that prevents the Salary field from being updated to a
+negative value in the Employees table. If an attempt is made to set a negative salary, it should raise an
+error.
+Q5: Create a trigger named ValidateEmployeeName that ensures any new employee added to the
+Employees table has a name that starts with an alphabetic character (A-Z or a-z). If the name does not
+start with an alphabet, the trigger should prevent the insertion and raise an error.
