@@ -15,3 +15,11 @@ error.
 Q5: Create a trigger named ValidateEmployeeName that ensures any new employee added to the
 Employees table has a name that starts with an alphabetic character (A-Z or a-z). If the name does not
 start with an alphabet, the trigger should prevent the insertion and raise an error.
+Create a simple UDF that performs a basic mathematical operation (addition,
+subtraction, multiplication, division).
+2. Create a UDF that manipulates string data by converting it to uppercase.
+3. Create a UDF that calculates the number of days between two dates.
+4. Implement a UDF that calculates employee bonuses based on their performance
+rating.
+5. Create a UDF that validates input data, specifically checking if a given email address
+is valid.
